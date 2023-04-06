@@ -1,6 +1,6 @@
- module.exports = {
+module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `CJPesco Modern Web `,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@gatsbyjs`,
   },
@@ -29,5 +29,6 @@
         icon: `static/images/icons/favicon-32x32.png`, // This path is relative to the root of the site.
       },
     },
+    `gatsby-plugin-styled-components`,
   ],
 }
